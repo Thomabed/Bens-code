@@ -1,10 +1,16 @@
 <script>
+    import Answer from "./answer.svelte";
+    
     export const number = 1
-
-export let answer1 = "";
-export let answer2 = "";
-export let answer3 = "";
-export let answer4 = "";
+    export let answer1 = "";
+    export let answer2 = "";
+    export let answer3 = "";
+    export let answer4 = "";
+    
+    /** @type { "a" | "b" | "c" | "d" }*/
+    export let answer = "a";
+    /** @type { "a" | "b" | "c" | "d" }*/
+    let selected = "a";
 </script>
 
 <div>
@@ -16,6 +22,7 @@ export let answer4 = "";
         name="q{number}" 
         id="q{number}a"
         value="a"
+        bind:group={selected}
         />
         A:{answer1}
     </label>
@@ -26,6 +33,7 @@ export let answer4 = "";
     name="q{number}" 
     id="q{number}a"
     value="b"
+    bind:group={selected}
     />
     B:{answer2}
 </label> 
@@ -36,6 +44,7 @@ export let answer4 = "";
     name="q{number}" 
     id="q{number}a"
     value="c"
+    bind:group={selected}
     />
     C:{answer3}
 </label> 
@@ -46,7 +55,11 @@ export let answer4 = "";
     name="q{number}" 
     id="q{number}a"
     value="a"
+    bind:group={selected}
     />
     D:{answer4}
 </label>
+
 </div>
+
+<Answer answer={answer == selected}/>
