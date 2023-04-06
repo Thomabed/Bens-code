@@ -29,9 +29,9 @@ What is the hottest a conventional oven goes?
 </Questions>  
 <Questions 
 number= {3}  
- answer1="between 10,000 and 12,000"
+ answer1="between 14,400 and 19,200"
  answer2="15,000"
- answer3="between 14,400 and 19,200"
+ answer3="between 10,000 and 12,200"
  answer4="between 20,000 and 25,000"
  answer="c"
 >
