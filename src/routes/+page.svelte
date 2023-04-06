@@ -22,7 +22,7 @@ number= {2}
  answer2="236"
  answer3="250"
  answer4="260"
- answer="D"
+ answer="d"
 
  >
 What is the hottest a conventional oven goes?
@@ -33,17 +33,17 @@ number= {3}
  answer2="15,000"
  answer3="between 10,000 and 12,200"
  answer4="between 20,000 and 25,000"
- answer="c"
+ answer="a"
 >
 How many times do humans blink a day?
 </Questions>  
 <Questions 
 number= {4}  
- answer1="First answer"
- answer2="Second answer"
- answer3="Third answer"
- answer4="All of the above"
- answer="c"
+ answer1="25"
+ answer2="37"
+ answer3="22"
+ answer4="None of the above"
+ answer="a"
 >
-This is my new Question? 
+How old is Mr. Bonner?
 </Questions>  

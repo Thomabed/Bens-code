@@ -3,16 +3,23 @@
  </script>
 
  {#if answer}
- <p class = correct  >Great job</p>
+ <p class = correct  >Great job!</p>
  {:else}
- <p style = "color:red;">not quite...</p>
+ <p class = incorrect >Not quite...</p>
  {/if}
-
- <style>
+<p>
+     <style>
     .correct {
         color:green; 
+        font-weight:italic;
+    }
+ </style>
+  </p>
+  <p>
+  <style>
+    .incorrect {
+        color:Red; 
         font-weight:bold;
     }
-    
- </style>
-  
+  </style>
+  </p>
