@@ -18,10 +18,10 @@ How many toes does an elephant have?
 </Questions>  
 <Questions 
 number= {2}  
- answer1="180 'C"
- answer2="236 'C"
- answer3="250 'C"
- answer4="260 'C"
+ answer1="180"
+ answer2="236"
+ answer3="250"
+ answer4="260"
  answer="D"
 
  >
