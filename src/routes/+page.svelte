@@ -2,10 +2,10 @@
 	
 	import Questions from "../components/questions.svelte";
 	import Score from "../components/score.svelte";
-
+    
 </script>
     <Score score={0} />
-
+    
     <Questions 
     number= {1}  
      answer1="3"
