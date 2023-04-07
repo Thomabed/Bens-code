@@ -10,7 +10,7 @@
         position:absolute;
         inset: 0;
     
-        background-color: #2052af ;
+        background-color:white ;
     }
 
     .layout {
