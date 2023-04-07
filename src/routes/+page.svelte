@@ -8,14 +8,14 @@
     
     <Questions 
     number= {1}  
-     answer1="3"
-     answer2="8"
-     answer3="5"
-     answer4="4"
+     answer1=" 3"
+     answer2=" 8"
+     answer3=" 5"
+     answer4=" 4"
      answer="c"
->
-How many Toes do Elephants have?
-</Questions>  
+    >
+    How many toes do Elephants have?
+    </Questions>  
 <Questions 
 number= {2}  
  answer1=" 180"
