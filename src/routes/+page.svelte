@@ -6,7 +6,7 @@
 </script>
     <Score score={0} />
 
-    <div class="card-stack">
+<div class="card-stack">
     <div class="card">
       <p class="card-title">
         How many toes does an elephant have?
@@ -20,7 +20,8 @@
             >
             </Questions>  </p>
      </div>
-</div><div class="card-stack">
+</div>
+<div class="card-stack">
     <div class="card">
       <p class="card-title">
         How many toes does an elephant have?
@@ -35,7 +36,8 @@
             </Questions>  
               </p>
      </div>
-</div><div class="card-stack">
+</div>
+<div class="card-stack">
     <div class="card">
       <p class="card-title">
         How many toes does an elephant have?
@@ -50,7 +52,9 @@
             How many times do humans blink a day?
             </Questions> </p>
      </div>
-</div><div class="card-stack">
+</div>
+
+<div class="card-stack">
     <div class="card">
       <p class="card-title">
         How many toes does an elephant have?

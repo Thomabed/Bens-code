@@ -10,7 +10,7 @@
         position:absolute;
         inset: 0;
     
-        background-color:white ;
+        background-color: whitesmoke ;
     }
 
     .layout {
