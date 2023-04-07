@@ -14,7 +14,7 @@
      answer4="4"
      answer="c"
 >
-How many toes does an elephant have?
+How many Toes do Elephants have?
 </Questions>  
 <Questions 
 number= {2}  
@@ -38,11 +38,11 @@ How many times do humans blink a day?
 </Questions>  
 <Questions 
 number= {4}  
- answer1="25"
- answer2="37"
- answer3="22"
- answer4="None of the above"
- answer="a"
+ answer1="12"
+ answer2="14"
+ answer3="13"
+ answer4="11"
+ answer="b"
 >
-How old is Mr. Bonner?
+How old am I?
 </Questions>  
