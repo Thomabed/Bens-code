@@ -38,4 +38,8 @@
         border:4px solid black;
         padding: 12px 24px;
     }
+    .header {
+        display:flex;
+        justify-content: space-between;
+    }
 </style>
