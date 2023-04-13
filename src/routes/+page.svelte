@@ -24,7 +24,6 @@
 <div class="card-stack">
     <div class="card">
       <p class="card-title">
-        How many toes does an elephant have?
         <p class="card-body"><Questions  
              answer1=" 180"
              answer2=" 225"
@@ -40,7 +39,6 @@
 <div class="card-stack">
     <div class="card">
       <p class="card-title">
-        How many toes does an elephant have?
         <p class="card-body"><Questions 
 
              answer1="between 14,400 and 19,200"
@@ -53,11 +51,9 @@
             </Questions> </p>
      </div>
 </div>
-
 <div class="card-stack">
     <div class="card">
       <p class="card-title">
-        How many toes does an elephant have?
         <p class="card-body"> 
             <Questions  
              answer1="12"

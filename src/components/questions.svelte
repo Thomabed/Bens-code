@@ -1,7 +1,7 @@
 <script>
     import Answer from "./answer.svelte";
     
-    export const number = 1
+    export const number = 1 
     export let answer1 = "";
     export let answer2 = "";
     export let answer3 = "";

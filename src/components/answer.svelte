@@ -6,7 +6,7 @@
  <p class = correct  >Great job!</p>
  {:else}
  <p class = incorrect >Not quite...</p>
- {/if}
+ {/if} 
 <p>
      <style>
     .correct {
