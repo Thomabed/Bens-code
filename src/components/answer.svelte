@@ -24,6 +24,10 @@
 	}
 
 	.wrapper.correct {
-		background: var( --color_green);
+		background-color: var( --color_green);
 	}
+	.wrapper.incorrect{
+		background-color: var( --color_red);
+	}
+	
 </style>
