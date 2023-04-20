@@ -1,21 +1,29 @@
 <script>
 	export let answer = true;
 </script>
-{#if answer}
-	<p class="correct">Good job!</p>
-{:else}
-	<p class="incorrect">Not quite...</p>
-{/if}
+
+<div class ="wrapper {answer ? 'correct'  : 'incorrect'}">
+	{#if answer}
+			<h1>Good job!</h1>
+			<p> +1 Point</p>
+		{:else}
+			<h1>Not quite...</h1>
+			<p>No points for you...</p>
+		{/if}
+</div>
+
 <style>
-	.correct,
-	.incorrect {
-		font-weight: bold;
-		text-decoration: underline;
+	.wrapper {
+		position:fixed;
+		inset: 0;
+
+		display:flex;
+		flex-direction:column;
+		align-items: center;
+		justify-content: center;
 	}
-	.correct {
-		color: green;
-	}
-	.incorrect {
-		color: red;
+
+	.wrapper.correct {
+		background: var( --color_green);
 	}
 </style>
