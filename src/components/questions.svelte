@@ -25,7 +25,6 @@
 	</div>
 </div>
 
-<Answer answer={correctIndex == selected} />
 
 <style>
 	.answer-group {
