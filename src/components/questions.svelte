@@ -25,6 +25,7 @@
 	</div>
 </div>
 
+<Answer answer={false} />
 
 <style>
 	.answer-group {
